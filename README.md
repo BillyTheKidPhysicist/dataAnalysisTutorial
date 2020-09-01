@@ -1,5 +1,6 @@
 # dataAnalysisTutorial
 Quick tutorial on data analysis for my students
+makeData.pynb is how the sample data is made. analyzeData.ipynb is the data being analyzed. They both contain helpful information
 
 
 I will give a quick rundown on why everyone should use python and answer some questions.
@@ -38,5 +39,7 @@ Numpy, Scipy, Matplotlib and Astropy will cover like 99\% of data analysis.
 For software I recomend using Jupyter notebooks. For making big projects, or if you want real time code correction, I would use PyCharm. Jupyter Notebooks can do code correction, but PyCharm is better IMO. Downside is PyCharm is expert friendly. 
 
 Always start with the latest python and then don't upgrade until you need to or are starting a new project on a new machine. You can break things by following upgrades sometimes even though they try to prevent that. There also usually isn't a good reason for most people. Make sure to get at least python3.0! 
+
+To view images saved in the FITs file format, a common standard, download SAOImage. It is expert friendly, but veeeery powerful
 
 
