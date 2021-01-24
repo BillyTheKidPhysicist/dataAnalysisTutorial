@@ -1,0 +1,13 @@
+A lab has built an amplifier for a laser and need quanitify some values to make sure everything is in spec
+before installing it on their optics table. The amplifier has a few important characteristics. First, when 
+the amplifier is powered on there is a certain amount of laser power always being generated, this is called
+Amplified Sponteneous Emission. Second, the output laser power depends on the input laser power as an exponential
+function. The function should be y=a*exp(b*x) where y is the output power, and x is the input power. Third, the amplifier
+is sensitive to temperature, and to avoid overheating a temperature sensitive switch prevents any more electrical power
+being applied to the amplifier after a certain temperature. Your goal is to determine the rate of background spontaneous
+emission, the value of a and b, where this cuttoff occurs in terms of input laser power, and generate a publication quality graph of 
+your results. Data is provided in a text file. The first column is the laser power sent into the amplifier in unit of microwatts
+and the second column is the output power in units of watts. You will try to find the above values using a curve fit 
+(scipy.optimize.curve_fit is your best choice) and show this fit on the graph over the data. The graph should also
+have the values you found, as well as there uncertainty.. They can be in the title or on the graph itself. 
+You don't need to use curve fitting neccesarily.
